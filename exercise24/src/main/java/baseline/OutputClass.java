@@ -8,6 +8,7 @@ public class OutputClass {
 
   public void printOutputString(String outputString) {
     // print 'outputString'
+    System.out.println(outputString);
   }
 
 }
