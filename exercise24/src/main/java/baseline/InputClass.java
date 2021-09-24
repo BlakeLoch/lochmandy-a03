@@ -4,22 +4,29 @@
  */
 package baseline;
 
+import java.util.Scanner;
+
 public class InputClass {
+
+  private static final Scanner input = new Scanner(System.in);
 
   public void printWelcomeLine() {
     // print "Enter two strings, and I'll tell you if they are anagrams:"
+    System.out.println("Enter two strings, and I'll tell you if they are anagrams:");
   }
 
-  // method getFirstInputFromUser()
   public String getFirstInputFromUser() {
     // print "Enter the first string:"
+    System.out.print("Enter the first string:");
     // return user input
+    return input.nextLine();
   }
 
-  // method getSecondInputFromUser()
   public String getSecondInputFromUser() {
     // print "Enter the second string:"
+    System.out.print("Enter the second string:");
     // return user input
+    return input.nextLine();
   }
 
 }
