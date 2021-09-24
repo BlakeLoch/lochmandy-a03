@@ -17,14 +17,14 @@ public class InputClass {
 
   public String getFirstInputFromUser() {
     // print "Enter the first string:"
-    System.out.print("Enter the first string:");
+    System.out.print("Enter the first string: ");
     // return user input
     return input.nextLine();
   }
 
   public String getSecondInputFromUser() {
     // print "Enter the second string:"
-    System.out.print("Enter the second string:");
+    System.out.print("Enter the second string: ");
     // return user input
     return input.nextLine();
   }
