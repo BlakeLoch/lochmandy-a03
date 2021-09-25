@@ -16,7 +16,7 @@ public class Solution26 {
     // Get 'balance' from user
     double balance = userInput.getBalanceFromUser();
     // Get 'apr' from user
-    double apr = userInput.getAprFromUser();
+    int apr = userInput.getAprFromUser();
     // Get 'monthlyPayment' from user
     double monthlyPayment = userInput.getMonthlyPaymentFromUser();
 
