@@ -1,9 +1,3 @@
 
-<
-java:S1172"&Remove these unused method parameters.(¾Ó·‡
-A
-java:S1172"&Remove these unused method parameters.(ëß×žøÿÿÿÿ
-H
-java:S1144"2Remove this unused private "calcHeartRate" method.(¾Ó·‡
-H
-java:S1144"-Remove this unused private "buildRow" method.(ëß×žøÿÿÿÿ
+2
+java:S1643"Use a StringBuilder instead.(âª‹ø
