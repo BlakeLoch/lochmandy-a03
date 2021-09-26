@@ -16,9 +16,11 @@ public class CalcClass {
 
   private static final Random r = new Random();
 
-  private static final char[] letters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
+  private static final char[] letters = {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l',
+      'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
   private static final char[] numbers = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9'};
-  private static final char[] specialChars = {'!', '@', '#', '$', '%', '&', '*', '~', '+', '-', '=', '_', '?', '<', '>'};
+  private static final char[] specialChars = {'!', '@', '#', '$', '%', '&', '*', '~', '+', '-', '=',
+      '_', '?', '<', '>'};
 
   public String generatePassword(int minimumLength, int specialCharCount, int numberCount) {
     int length = calcLength(minimumLength, specialCharCount, numberCount);
@@ -28,14 +30,14 @@ public class CalcClass {
     int sCharIndex = 0;
     // pick 'specialCharCount' special characters
     while (sCharIndex < specialCharCount) {
-      password[trueIndex+sCharIndex] = specialChars[r.nextInt(specialChars.length - 1)];
+      password[trueIndex + sCharIndex] = specialChars[r.nextInt(specialChars.length - 1)];
       sCharIndex++;
     }
     trueIndex = sCharIndex;
     // pick 'numberCount' numbers
     int numIndex = 0;
     while (numIndex < numberCount) {
-      password[trueIndex+numIndex] = numbers[r.nextInt(numbers.length - 1)];
+      password[trueIndex + numIndex] = numbers[r.nextInt(numbers.length - 1)];
       numIndex++;
     }
     trueIndex += numIndex;
@@ -69,7 +71,7 @@ public class CalcClass {
 
   public String buildOutputString(String password) {
     // return "Your password is 'password'"
-    return "Your password is "+password;
+    return "Your password is " + password;
   }
 
   private int calcLength(int minimumLength, int specialCharCount, int numberCount) {

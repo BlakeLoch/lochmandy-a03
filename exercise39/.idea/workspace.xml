@@ -5,11 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36cf7a4f-d113-4eb5-9f3b-651f7683afd9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/baseline/EmployeeInfoClassTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise25/.idea/sonarlint/issuestore/5/2/5266ad53ac66817d528e5c10432e1ae883654198" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise25/.idea/sonarlint/issuestore/5/2/5266ad53ac66817d528e5c10432e1ae883654198" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise25/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise25/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise25/src/test/java/baseline/CalcClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise25/src/test/java/baseline/CalcClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise26/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise26/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise26/src/main/java/baseline/PaymentCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise26/src/main/java/baseline/PaymentCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise26/src/test/java/baseline/PaymentCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise26/src/test/java/baseline/PaymentCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise27/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise27/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise29/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise29/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise30/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise30/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise30/.idea/sonarlint/issuestore/1/1/115ded401969d1af2a09e8e634c334a60ab0e4be" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise30/.idea/sonarlint/issuestore/1/1/115ded401969d1af2a09e8e634c334a60ab0e4be" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise30/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise30/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise30/src/main/java/baseline/MultiplicationClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise30/src/main/java/baseline/MultiplicationClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise30/src/test/java/baseline/MultiplicationClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise30/src/test/java/baseline/MultiplicationClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise31/.idea/sonarlint/issuestore/0/0/00b6da1e56f934c7f6037fad799f8bca3bdcf613" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise31/.idea/sonarlint/issuestore/0/0/00b6da1e56f934c7f6037fad799f8bca3bdcf613" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise31/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise31/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise31/src/main/java/baseline/CalcClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise31/src/main/java/baseline/CalcClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise31/src/test/java/baseline/CalcClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise31/src/test/java/baseline/CalcClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise32/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise32/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise32/src/main/java/baseline/GameClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise32/src/main/java/baseline/GameClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise32/src/test/java/baseline/GameClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise32/src/test/java/baseline/GameClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise33/.idea/sonarlint/issuestore/5/2/5266ad53ac66817d528e5c10432e1ae883654198" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise33/.idea/sonarlint/issuestore/5/2/5266ad53ac66817d528e5c10432e1ae883654198" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise33/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise33/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise33/src/main/java/baseline/OutputClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise33/src/main/java/baseline/OutputClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise33/src/main/java/baseline/Solution33.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise33/src/main/java/baseline/Solution33.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise33/src/test/java/baseline/CalcClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise33/src/test/java/baseline/CalcClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise34/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise34/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise34/src/main/java/baseline/EmployeeListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise34/src/main/java/baseline/EmployeeListClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise34/src/test/java/baseline/EmployeeListClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise34/src/test/java/baseline/EmployeeListClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise35/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise35/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise35/src/test/java/baseline/CalcClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise35/src/test/java/baseline/CalcClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise36/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise36/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise36/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise36/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise37/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise37/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise37/src/main/java/baseline/CalcClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise37/src/main/java/baseline/CalcClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise37/src/main/java/baseline/Solution37.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise37/src/main/java/baseline/Solution37.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise37/src/test/java/baseline/CalcClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise37/src/test/java/baseline/CalcClassTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise38/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise38/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise38/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise38/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise38/src/main/java/baseline/CalcClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise38/src/main/java/baseline/CalcClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise38/src/main/java/baseline/InputClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise38/src/main/java/baseline/InputClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise38/src/test/java/baseline/CalcClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise38/src/test/java/baseline/CalcClassTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/baseline/EmployeeInfoClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/EmployeeInfoClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/baseline/Solution39.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/baseline/Solution39.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/baseline/EmployeeInfoClassTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/baseline/EmployeeInfoClassTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,5 +197,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -20,8 +20,9 @@ public class InputClass {
     String[] numberStrings = userInput.split(" ");
     // store in array
     int[] numbers = new int[numberStrings.length];
-    for (int i=0; i<numbers.length;i++)
+    for (int i = 0; i < numbers.length; i++) {
       numbers[i] = Integer.parseInt(numberStrings[i]);
+    }
     // return array
     return numbers;
   }

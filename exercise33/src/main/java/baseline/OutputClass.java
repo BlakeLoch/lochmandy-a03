@@ -9,6 +9,6 @@ public class OutputClass {
 
   public void printResponse(String response) {
     // Print response
-    System.out.println("\n"+response);
+    System.out.println("\n" + response);
   }
 }

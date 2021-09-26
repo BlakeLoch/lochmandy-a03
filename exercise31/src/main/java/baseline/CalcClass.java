@@ -9,9 +9,10 @@ public class CalcClass {
 
   public String generateHeartRateTable(int restingHR, int age) {
     // create string heartRateTable = "Resting Pulse: 'restingHR'        Age: 'age'\n\nIntensity    | Rate\n-------------|--------\n"
-    String heartRateTable = "\nResting Pulse: "+restingHR+"        Age: "+age+"\n\nIntensity    | Rate\n-------------|--------\n";
+    String heartRateTable = "\nResting Pulse: " + restingHR + "        Age: " + age
+        + "\n\nIntensity    | Rate\n-------------|--------\n";
     // Loop from 55 to 95 incrementing by 5
-    for (int i = 55; i <= 95 ; i+=5) {
+    for (int i = 55; i <= 95; i += 5) {
       // Add rows with buildRow()
       heartRateTable += buildRow(i, calcHeartRate(restingHR, age, i));
     }
@@ -28,7 +29,7 @@ public class CalcClass {
 
   private String buildRow(int intensity, int targetHeartRate) {
     // return "'intensity'%          | 'targetHeartRate' bpm\n"
-    return intensity+"%          | "+targetHeartRate+" bpm\n";
+    return intensity + "%          | " + targetHeartRate + " bpm\n";
   }
 
 }

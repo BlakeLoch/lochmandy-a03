@@ -31,8 +31,6 @@ public class Solution37 {
     output.printOutputString(outputString);
 
 
-
-
   }
 
 }

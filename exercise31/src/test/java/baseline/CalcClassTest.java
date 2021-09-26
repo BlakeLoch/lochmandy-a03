@@ -5,7 +5,7 @@
 
 package baseline;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 
@@ -16,7 +16,7 @@ class CalcClassTest {
     CalcClass calculations = new CalcClass();
 
     String expected = """
-        
+                
         Resting Pulse: 65        Age: 22
 
         Intensity    | Rate

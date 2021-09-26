@@ -17,7 +17,7 @@ public class EmployeeListClass {
 
   public void printEmployees(String[] employees) {
     // Print "There are employees.length employees:"
-    System.out.println("There are "+employees.length+" employees:");
+    System.out.println("There are " + employees.length + " employees:");
     // For each employee
     for (String employee : employees) {
       // Print name

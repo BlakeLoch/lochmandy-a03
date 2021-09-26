@@ -23,7 +23,20 @@ public class EmployeeInfoClass {
   private static final String SEPARATION_DATE = "separationDate";
 
   //Initialize employee 1
-  private static final Map<String, String> employee1Info  = new HashMap<>();
+  private static final Map<String, String> employee1Info = new HashMap<>();
+  //Initialize employee 2
+  private static final Map<String, String> employee2Info = new HashMap<>();
+  //Initialize employee 3
+  private static final Map<String, String> employee3Info = new HashMap<>();
+  //Initialize employee 4
+  private static final Map<String, String> employee4Info = new HashMap<>();
+  //Initialize employee 5
+  private static final Map<String, String> employee5Info = new HashMap<>();
+  //Initialize employee 6
+  private static final Map<String, String> employee6Info = new HashMap<>();
+  //Create list of maps
+  static List<Map<String, String>> employeeList = new ArrayList<>();
+
   static {
     employee1Info.put(FIRST_NAME, "John");
     employee1Info.put(LAST_NAME, "Johnson");
@@ -31,8 +44,6 @@ public class EmployeeInfoClass {
     employee1Info.put(SEPARATION_DATE, "2016-12-31");
   }
 
-  //Initialize employee 2
-  private static final Map<String, String> employee2Info  = new HashMap<>();
   static {
     employee2Info.put(FIRST_NAME, "Tou");
     employee2Info.put(LAST_NAME, "Xiong");
@@ -40,8 +51,6 @@ public class EmployeeInfoClass {
     employee2Info.put(SEPARATION_DATE, "2016-10-05");
   }
 
-  //Initialize employee 3
-  private static final Map<String, String> employee3Info  = new HashMap<>();
   static {
     employee3Info.put(FIRST_NAME, "Michaela");
     employee3Info.put(LAST_NAME, "Michaelson");
@@ -49,17 +58,13 @@ public class EmployeeInfoClass {
     employee3Info.put(SEPARATION_DATE, "2015-12-19");
   }
 
-  //Initialize employee 4
-  private static final Map<String, String> employee4Info  = new HashMap<>();
-    static {
-      employee4Info.put(FIRST_NAME, "Jake");
-      employee4Info.put(LAST_NAME, "Jacobson");
-      employee4Info.put(POSITION, "Programmer");
-      employee4Info.put(SEPARATION_DATE, "");
+  static {
+    employee4Info.put(FIRST_NAME, "Jake");
+    employee4Info.put(LAST_NAME, "Jacobson");
+    employee4Info.put(POSITION, "Programmer");
+    employee4Info.put(SEPARATION_DATE, "");
   }
 
-  //Initialize employee 5
-  private static final Map<String, String> employee5Info  = new HashMap<>();
   static {
     employee5Info.put(FIRST_NAME, "Jacquelyn");
     employee5Info.put(LAST_NAME, "Jackson");
@@ -67,17 +72,13 @@ public class EmployeeInfoClass {
     employee5Info.put(SEPARATION_DATE, "");
   }
 
-  //Initialize employee 6
-  private static final Map<String, String> employee6Info  = new HashMap<>();
-    static {
-      employee6Info.put(FIRST_NAME, "Sally");
-      employee6Info.put(LAST_NAME, "Webber");
-      employee6Info.put(POSITION, "Web Developer");
-      employee6Info.put(SEPARATION_DATE, "2015-12-18");
+  static {
+    employee6Info.put(FIRST_NAME, "Sally");
+    employee6Info.put(LAST_NAME, "Webber");
+    employee6Info.put(POSITION, "Web Developer");
+    employee6Info.put(SEPARATION_DATE, "2015-12-18");
   }
 
-  //Create list of maps
-  static List<Map<String, String>> employeeList = new ArrayList<>();
   static {
     //Add employee maps to list
     employeeList.add(employee1Info);
@@ -118,9 +119,11 @@ public class EmployeeInfoClass {
     System.out.println(outputTable);
   }
 
-  private String buildRow(String firstName, String lastName, String position, String separationDate) {
+  private String buildRow(String firstName, String lastName, String position,
+      String separationDate) {
     // return firstName+" "+lastName+"\t| "+ position + "\t| "+separationDate
-    return String.format("%-20s| %-18s| %s%n", firstName+" "+lastName, position, separationDate);
+    return String.format("%-20s| %-18s| %s%n", firstName + " " + lastName, position,
+        separationDate);
   }
 
 }

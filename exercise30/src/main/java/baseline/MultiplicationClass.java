@@ -10,7 +10,7 @@ public class MultiplicationClass {
   public String generateTimesTable() {
 
     int product;
-    String timesTable = "";
+    StringBuilder timesTable = new StringBuilder();
 
     // Loop from 1 to 12
     for (int i = 1; i <= 12; i++) {
@@ -21,25 +21,25 @@ public class MultiplicationClass {
         // if 'product' is less than 10
         if (product < 10) {
           // print "     'product'"
-          timesTable += "    "+product;
+          timesTable.append("    ").append(product);
         }
         // if number is greater than 99
         else if (product > 99) {
           // print "   'product'"
-          timesTable += "  "+product;
+          timesTable.append("  ").append(product);
         }
         // if number is between 10 and 99
         else {
           // print "    'product'"
-          timesTable += "   "+product;
+          timesTable.append("   ").append(product);
         }
       }
       //print newline
-      timesTable += "\n";
+      timesTable.append("\n");
     }
 
     //return 'timesTable'
-    return timesTable;
+    return timesTable.toString();
   }
 
   public void printTimesTable(String timesTable) {

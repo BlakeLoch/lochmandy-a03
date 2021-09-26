@@ -23,8 +23,7 @@ public class CalcClass {
     }
     // convert evenNumbersList to int array
     int[] evenNumbers = new int[evenNumbersList.size()];
-    for (int i=0; i < evenNumbers.length; i++)
-    {
+    for (int i = 0; i < evenNumbers.length; i++) {
       evenNumbers[i] = evenNumbersList.get(i);
     }
     return evenNumbers;

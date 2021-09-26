@@ -14,7 +14,7 @@ public class GameClass {
   private static final Random r = new Random();
 
   public void play() {
-  //do
+    //do
     do {
       // set the difficulty
       int difficulty = setDifficulty();
@@ -31,9 +31,9 @@ public class GameClass {
         guess = getNextGuess(guideGuess(guess, answer));
       }
       // print "You got it in 'guessCount' guesses!"
-      System.out.println("You got it in "+guessCount+" guesses!");
+      System.out.println("You got it in " + guessCount + " guesses!");
     }
-  // while exitGame is false
+    // while exitGame is false
     while (exitGame());
   }
 
@@ -69,10 +69,10 @@ public class GameClass {
 
   private int setAnswer(int difficulty) {
     // return random number between 1 and 10 to the power of 'difficulty'
-    return r.nextInt( (int) Math.pow(10, difficulty)) + 1;
+    return r.nextInt((int) Math.pow(10, difficulty)) + 1;
   }
 
-  private String getInitialGuess(){
+  private String getInitialGuess() {
     // prompt user for guess
     System.out.print("I have my number. What's your guess? ");
     // return user input
@@ -91,7 +91,7 @@ public class GameClass {
     return guessedNumber == answer;
   }
 
-  public String guideGuess (String guess, int answer){
+  public String guideGuess(String guess, int answer) {
     // check if not number
     if (isNotNumber(guess)) {
       // return "Invalid input."
@@ -111,9 +111,9 @@ public class GameClass {
     }
   }
 
-  private String getNextGuess(String guideGuess){
+  private String getNextGuess(String guideGuess) {
     // prompt user for guess
-    System.out.print(guideGuess+" Guess again: ");
+    System.out.print(guideGuess + " Guess again: ");
     // return user input
     return input.nextLine();
   }
