@@ -18,7 +18,8 @@ public class Solution35 {
     String[] names = userInput.getNamesFromUser();
 
     //Pick Winner
-    String winner = calculations.pickWinner(names);
+    int winnerNumber = calculations.generateRandomNumber(names);
+    String winner = calculations.pickWinner(names, winnerNumber);
 
     //Build WinnerLine
     String winnerLine = calculations.buildWinnerLine(winner);
