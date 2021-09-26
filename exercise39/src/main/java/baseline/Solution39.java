@@ -11,19 +11,12 @@ public class Solution39 {
     //Link EmployeeInfoClass
     EmployeeInfoClass table = new EmployeeInfoClass();
 
-    // Sort table by lastName
-    table.sortTable();
-
     // Build table
     String outputTable = table.buildTable();
 
     // Print table
     table.printTable(outputTable);
 
-
-
   }
-
-
 
 }
