@@ -18,13 +18,13 @@ public class Solution38 {
     int[] numbers = userInput.getNumbers();
 
     // Find even numbers
-    int[] evenNumbers = calculations.findEvenNumbers(numbers);
+    int[] evenNumbers = calculations.filterEvenNumbers(numbers);
 
     // build outputString
     String outputString = calculations.buildOutputString(evenNumbers);
 
     // print outputString
-    output.printOutputString()
+    output.printOutputString(outputString);
 
   }
 
