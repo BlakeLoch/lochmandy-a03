@@ -18,9 +18,11 @@ public class Solution28 {
     // Add numbers together
     int sum = add.sumNumbers();
 
-    // Print result
-    add.printSum(sum);
+    // Build outputString
+    String outputString = add.buildOutput(sum);
 
+    // Print result
+    add.printSum(outputString);
 
 
   }

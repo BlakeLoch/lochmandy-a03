@@ -1,10 +1,10 @@
 
 <
 build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
-W
-'src/main/java/baseline/OutputClass.java,1/0/102ba91fae0c808114344672c4ea4e39e730984a
 V
 &src/main/java/baseline/Solution27.java,c/4/c4ea424aa0247fa241423fcc7495bda62cff644e
+W
+'src/main/java/baseline/OutputClass.java,1/0/102ba91fae0c808114344672c4ea4e39e730984a
 U
 %src/main/java/baseline/CalcClass.java,0/0/00b6da1e56f934c7f6037fad799f8bca3bdcf613
 V
