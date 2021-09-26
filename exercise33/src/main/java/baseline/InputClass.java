@@ -5,10 +5,16 @@
 
 package baseline;
 
+import java.util.Scanner;
+
 public class InputClass {
+
+  private static final Scanner input = new Scanner(System.in);
 
   public void getQuestionFromUser() {
     // Print "What's your question?\n> "
+    System.out.print("What's your question?\n> ");
     // Get user input
+    input.nextLine();
   }
 }

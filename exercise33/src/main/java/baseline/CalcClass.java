@@ -5,12 +5,22 @@
 
 package baseline;
 
+import java.util.Random;
+
 public class CalcClass {
 
-  public String magic8Ball() {
-    // Create response array
-    // Generate random number from 0 to array.length - 1
-    // Return array at the index of the random number
+  private static final Random r = new Random();
+
+  // Create response array
+  private static final String[] responses = {"Yes.", "No.", "Maybe.", "Ask again later."};
+
+  public String magic8Ball(int responseNumber) {
+    return responses[responseNumber];
+  }
+
+  public int generateRandomNumber() {
+    // Generate random number from 0 to responses.length - 1
+    return r.nextInt(responses.length - 1);
   }
 
 }

@@ -18,7 +18,8 @@ public class Solution33 {
     userInput.getQuestionFromUser();
 
     // Get Response From Magic 8 Ball
-    String response = calculations.magic8Ball();
+    int randomNumber = calculations.generateRandomNumber();
+    String response = calculations.magic8Ball(randomNumber);
 
     // Print response
     output.printResponse(response);
