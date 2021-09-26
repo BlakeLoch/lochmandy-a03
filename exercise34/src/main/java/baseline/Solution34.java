@@ -13,16 +13,22 @@ public class Solution34 {
     EmployeeListClass list = new EmployeeListClass();
 
     //Print List of Employees
-    list.printEmployees();
+    list.printEmployees(list.getEmployees());
+
+    //Create space in output
+    System.out.println();
 
     //Get name of employee to remove
     String employeeToRemove = list.getEmployeeToRemoveFromUser();
+
+    //Create space in output
+    System.out.println();
 
     //Remove employee
     list.removeEmployee(employeeToRemove);
 
     //Print List of Employees
-    list.printEmployees();
+    list.printEmployees(list.getEmployees());
   }
 
 }

@@ -5,25 +5,52 @@
 
 package baseline;
 
+import java.util.Scanner;
+
 public class EmployeeListClass {
 
-  // Initialize Employee Array
+  private static final Scanner input = new Scanner(System.in);
 
-  public void printEmployees() {
+  // Initialize Employee Array
+  private String[] employees = {"John Smith", "Jackie Jackson", "Chris Jones", "Amanda Cullen",
+      "Jeremy Goodwin"};
+
+  public void printEmployees(String[] employees) {
+    // Print "There are employees.length employees:"
+    System.out.println("There are "+employees.length+" employees:");
     // For each employee
-    // Print name
+    for (String employee : employees) {
+      // Print name
+      System.out.println(employee);
+    }
   }
 
   public String getEmployeeToRemoveFromUser() {
     // Prompt user for employee to remove
+    System.out.print("Enter an employee name to remove: ");
     // Return user input
+    return input.nextLine();
   }
 
-  public void removeEmployee(String employeeToRemove) {
+  public String[] removeEmployee(String employeeToRemove) {
     // Make temporary array
+    String[] tempArray = new String[4];
     // Iterate through employee array
-    // if employee matches employeeToRemove, skip
-    // else store employee in temporary array
+    int tempArrayIndex = 0;
+    for (String employee : employees) {
+      // if employee does not match employeeToRemove
+      if (!employee.equals(employeeToRemove)) {
+        //  store employee in temporary array
+        tempArray[tempArrayIndex] = employee;
+        tempArrayIndex++;
+      }
+    }
     // override employee array to be the same as the temporary array
+    employees = tempArray;
+    return employees;
+  }
+
+  public String[] getEmployees() {
+    return employees;
   }
 }
