@@ -16,27 +16,31 @@ class CalcClassTest {
     CalcClass calculations = new CalcClass();
     String expected = "Yes.";
     String actual = calculations.magic8Ball(0);
+    assertEquals(expected, actual);
   }
 
   @Test
   void magic8BallTest2() {
     CalcClass calculations = new CalcClass();
-    String expected = "Yes.";
+    String expected = "No.";
     String actual = calculations.magic8Ball(1);
+    assertEquals(expected, actual);
   }
 
   @Test
   void magic8BallTest3() {
     CalcClass calculations = new CalcClass();
-    String expected = "Yes.";
+    String expected = "Maybe.";
     String actual = calculations.magic8Ball(2);
+    assertEquals(expected, actual);
   }
 
   @Test
   void magic8BallTest4() {
     CalcClass calculations = new CalcClass();
-    String expected = "Yes.";
+    String expected = "Ask again later.";
     String actual = calculations.magic8Ball(3);
+    assertEquals(expected, actual);
   }
 
   @Test
