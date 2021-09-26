@@ -5,14 +5,17 @@
 
 package baseline;
 
-public class solution30 {
+public class Solution30 {
 
   public static void main(String[] args) {
     // Link Multiplication Class
     MultiplicationClass times = new MultiplicationClass();
 
     // Generate Times Table
-    times.printTimesTable();
+    String timesTable = times.generateTimesTable();
+
+    //Print Times Table
+    times.printTimesTable(timesTable);
   }
 
 }
