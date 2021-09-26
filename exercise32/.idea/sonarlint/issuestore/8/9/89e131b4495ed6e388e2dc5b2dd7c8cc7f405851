@@ -1,23 +1,9 @@
 
-H
-java:S1172"-Remove this unused method parameter "number".(Å›‚øÿÿÿÿ
-G
-java:S1172%"1Remove this unused method parameter "difficulty".(æ†¤°
-<
-java:S1172."&Remove these unused method parameters.(å­òÏ
-A
-java:S11728"&Remove these unused method parameters.(†–Ğ³ıÿÿÿÿ
-M
-java:S1144"2Remove this unused private "setDifficulty" method.(Â”†ÿúÿÿÿÿ
-H
-java:S1144"-Remove this unused private "isNumber" method.(Å›‚øÿÿÿÿ
-D
-java:S1144%".Remove this unused private "setAnswer" method.(æ†¤°
-H
-java:S1144)"-Remove this unused private "getGuess" method.(æ¹¨âùÿÿÿÿ
-E
-java:S1144."/Remove this unused private "checkGuess" method.(å­òÏ
-J
-java:S11448"/Remove this unused private "guideGuess" method.(†–Ğ³ıÿÿÿÿ
-C
-java:S1144B"-Remove this unused private "exitGame" method.(Âåı®
+S	java:S106""9Replace this use of System.out or System.err by a logger.(Ô™õúûÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ìá¨Èùÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(¨¹°°üÿÿÿÿ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(ìá¨Èùÿÿÿÿ
+N	java:S106M"9Replace this use of System.out or System.err by a logger.(“ï¼ø
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(Í€²ıÿÿÿÿ
+N	java:S106{"9Replace this use of System.out or System.err by a logger.(Æ¯ôğ
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(ÇˆÁïşÿÿÿÿ
